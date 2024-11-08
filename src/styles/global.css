@@ -1,0 +1,29 @@
+/* Ensure body and html take full height */
+html, body, div, main, footer {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Ensuring no padding or margins are added unexpectedly */
+  body, main {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #aaa;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+  }
+
+/* Ensure the description text is responsive */
+@media (max-width: 768px) {
+    .download-instructions {
+      font-size: 16px; /* Slightly smaller text on mobile devices */
+      text-align: left; /* Align text to the left on smaller screens */
+    }
+  }
+  
